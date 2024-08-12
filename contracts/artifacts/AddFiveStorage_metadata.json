@@ -106,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/simpleStorage.sol": "simpleStorage"
+			"contracts/add5Storage.sol": "AddFiveStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -120,12 +120,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/simpleStorage.sol": {
-			"keccak256": "0x3e4cad8cb7766e0fea75d358950b01d0376511502f219a5e3af2262cb812af7a",
+		"contracts/add5Storage.sol": {
+			"keccak256": "0x89a15eed23bf1c456dd677b9ca21624462c9035bc4a8131679136aa6589a9b7a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c2416e4afd1928880e4d16cf3f6c510e2c1964dc4554fd01c98b7f1eb53b099c",
-				"dweb:/ipfs/QmZKQiHe2qbqMXjXBqQr39qe2q74sA5XMDL4L4ka6JRXi7"
+				"bzz-raw://366d3d90825dbd5e617244d95873a679ece5a6e00cd4d2c08bcf7d8a6125f8c6",
+				"dweb:/ipfs/QmRsJe557JY1ESDP2o9Zw6FswnHtyobJPiuo9aMJ2gweeW"
+			]
+		},
+		"contracts/simpleStorage.sol": {
+			"keccak256": "0x53a2b50371f29d6790db66f73b5942c27049fbbea61313f40787025c6a1f8ed6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://20aaf350c10101ce1ff40cafc1261613a51544a9b076b89f6087402213e19913",
+				"dweb:/ipfs/QmRA3CrDxWipFb8gwTJWZ5AxU1B9GzT8cp2aweM8ZPo4mm"
 			]
 		}
 	},

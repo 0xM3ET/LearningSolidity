@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.26;     // solidity version. The version can be used in range such as >= 0.8.18 <0.9.0
+pragma solidity ^0.8.18;     // solidity version. The version can be used in range such as >= 0.8.18 <0.9.0
 
-contract simpleStorage{
+contract SimpleStorage{
     uint256 Number;
 
-        function store(uint256 _Number) public{
+    function store(uint256 _Number) public virtual{
         Number = _Number;
     }
 
